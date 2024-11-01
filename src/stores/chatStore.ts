@@ -5,6 +5,14 @@ interface Message {
   content: string;
 }
 
+// Future conversation starters for GroqChatComponent.tsx
+export const CONVERSATION_STARTERS = [
+  'Who are you?',
+  'What can you do?',
+  'Why are you here?',
+  'Play some music.',
+] as const;
+
 interface ChatState {
   messages: Message[];
   hasInitialized: boolean;

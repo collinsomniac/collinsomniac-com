@@ -6,12 +6,12 @@
   },
   "welcome-mortal": {
     "type": "response",
-    "text": "Welcome, mortal... To my domain. Type 'play' and a song title, to manifest my visualization. Use your arrow keys... UP [↑] and DOWN [↓] change view, LEFT [←] and RIGHT [→] change the visuals. Tapping both [←] + [→] changes dark to light...",
+    "text": "Welcome, mortal... To my domain. Type 'play' and a song title, to manifest my visualization. \n\nUse your arrow keys... \nUP [↑] and DOWN [↓] change view, \nLEFT [←] and RIGHT [→] change the visuals. \nTapping both [←] + [→] changes dark to light... \nHolding [Ctrl] and using [←] + [→] changes visualizers... \n\n**SONGS: WELCOME, ATOMS, ENTROPY, GRAVITY**",
     "audio": "welcome-mortal-full.mp3"
   },
   "tips-controls": {
     "type": "response",
-    "text": "Your arrow keys and scroll wheel... UP [↑] and DOWN [↓] change view, LEFT [←] and RIGHT [→] change the visuals. Tapping both [←] + [→] changes dark to light... The [SCROLL WHEEL] changes visualizers...",
+    "text": "Your arrow keys and scroll wheel... UP [↑] and DOWN [↓] change view, LEFT [←] and RIGHT [→] change the visuals. Tapping both [←] + [→] changes dark to light... Holding [Ctrl] and using [←] + [→] changes visualizers...",
     "audio": "tips-arrowkeys.mp3"
   },
   "tips-infotip": {

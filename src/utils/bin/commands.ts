@@ -110,7 +110,7 @@ export const credits = async (args: string[]): Promise<string> => {
 │       <u><a href="https://github.com/jberg/butterchurn">ButterChurn Viz 2</a></u>       │      <u><a href="https://github.com/jberg/">ButterChurn Team</a></u>      │
 │                               │                            │
 │          a s c i i :          │                            │
-│    <u><a href="https://andrewsink.github.io/STL-to-ASCII/">STL-to-ASCII Generator</a></u>     │        <u><a href="https://github.com/AndrewSink/">Andrew Sink</a></u>         │
+│    <u><a href="https://github.com/AndrewSink/STL-to-ASCII-Generator">STL-to-ASCII Generator</a></u>     │        <u><a href="https://github.com/AndrewSink/">Andrew Sink</a></u>         │
 │       <u><a href="https://github.com/samuelweckstrom/react-ascii-text">React ASCII Text</a></u>        │      <u><a href="https://github.com/samuelweckstrom/">Samuel Weckström</a></u>      │
 │      <u><a href="https://github.com/emilwidlund/ASCII/blob/main/src/index.ts">React ASCII Shader</a></u>       │        <u><a href="https://github.com/emilwidlund">Emil Widlund</a></u>        │
 │      <u><a href="https://github.com/mrdoob/three.js/blob/master/examples/webgl_effects_ascii.html">ASCIIEffect Shader</a></u>       │       <u><a href="https://threejs.org/about/">Three.js Team</a></u>        │
@@ -176,7 +176,9 @@ export const xgoogle = async (args: string[]): Promise<string> => {
 
 export const xbing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Bing huh? Something for everyone I guess. Searching Bing for ${args.join(' ')}...`;
+  return `Bing huh? Something for everyone I guess. Searching Bing for ${args.join(
+    ' ',
+  )}...`;
 };
 
 export const xreddit = async (args: string[]): Promise<string> => {

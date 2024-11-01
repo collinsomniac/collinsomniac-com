@@ -657,6 +657,115 @@ const StartOverlay: React.FC = () => {
                       </span>
                     </div>
                   </li>
+                  <li
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      marginBottom: '8px',
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                      <AsciiText
+                        font={smallKeyboard}
+                        animationDirection="down"
+                        animationCharacters=" .-:;=+*#%@"
+                        animationCharacterSpacing={1}
+                        animationDelay={2}
+                        animationInterval={850}
+                        animationIteration={1}
+                        animationLoop={false}
+                        animationSpeed={30}
+                        fadeInOnly={true}
+                        fadeOutOnly={false}
+                        isAnimated={true}
+                        isPaused={false}
+                        text="C"
+                        color={currentThemeColors.green}
+                      />
+                      <span
+                        style={{
+                          color: currentThemeColors.green,
+                          fontSize: '14px',
+                          marginLeft: '-2px',
+                          fontFamily: 'monospace',
+                        }}
+                      >
+                        trl
+                      </span>
+                    </div>
+                    <span
+                      style={{
+                        color: currentThemeColors.foreground,
+                        fontSize: '24px',
+                      }}
+                    >
+                      &nbsp;+&nbsp;
+                    </span>
+                    <AsciiText
+                      font={smallKeyboard}
+                      animationDirection="down"
+                      animationCharacters=" .-:;=+*#%@"
+                      animationCharacterSpacing={1}
+                      animationDelay={2}
+                      animationInterval={975}
+                      animationIteration={1}
+                      animationLoop={false}
+                      animationSpeed={30}
+                      fadeInOnly={true}
+                      fadeOutOnly={false}
+                      text="<"
+                      color={currentThemeColors.green}
+                    />
+                    <span
+                      style={{
+                        color: currentThemeColors.foreground,
+                        fontSize: '24px',
+                      }}
+                    >
+                      &nbsp;&amp;&nbsp;
+                    </span>
+                    <AsciiText
+                      font={smallKeyboard}
+                      animationDirection="down"
+                      animationCharacters=" .-:;=+*#%@"
+                      animationCharacterSpacing={1}
+                      animationDelay={2}
+                      animationInterval={1100}
+                      animationIteration={1}
+                      animationLoop={false}
+                      animationSpeed={30}
+                      fadeInOnly={true}
+                      fadeOutOnly={false}
+                      text=">"
+                      color={currentThemeColors.green}
+                    />
+                    <div
+                      style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'flex-start',
+                      }}
+                    >
+                      <span
+                        style={{
+                          color: currentThemeColors.foreground,
+                          marginLeft: '8px',
+                          fontSize: '14px',
+                        }}
+                      >
+                        to change
+                      </span>
+                      <span
+                        style={{
+                          color: currentThemeColors.green,
+                          marginLeft: '8px',
+                          fontSize: '14px',
+                        }}
+                      >
+                        visualizer
+                      </span>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
