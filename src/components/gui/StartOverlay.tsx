@@ -311,8 +311,10 @@ const StartOverlay: React.FC = () => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              fontSize: '16px',
-              lineHeight: '22px',
+              fontSize: `${Math.min(16, window.innerWidth / 100)}px`,
+              lineHeight: '1.4em',
+              justifyContent: 'center',
+              padding: '0 20px',
             }}
           >
             {/* Welcome Text */}

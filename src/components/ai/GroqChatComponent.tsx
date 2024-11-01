@@ -132,7 +132,7 @@ const GroqChatComponent: React.FC = () => {
 
   const [streamedText, setStreamedText] = useState('');
   const [isStreaming, setIsStreaming] = useState(false);
-  const streamSpeed = 11; // characters per second
+  const streamSpeed = 13; // characters per second
 
   // Ref to keep track of the current streaming interval
   const streamIntervalRef = useRef<NodeJS.Timeout | null>(null);
@@ -376,6 +376,14 @@ const GroqChatComponent: React.FC = () => {
       if (e) e.preventDefault();
       if (!input.trim() || isLoading) return;
 
+      // Add check for ongoing streaming
+      if (isStreaming) {
+        // Complete the current stream before processing new input
+        completeStreaming();
+        // Small delay to ensure streaming completion
+        await new Promise((resolve) => setTimeout(resolve, 100));
+      }
+
       try {
         setIsLoading(true);
         setError(null);
@@ -597,16 +605,21 @@ const GroqChatComponent: React.FC = () => {
 
   // Add a keydown handler
   const handleKeyDown = useCallback(
-    (e: React.KeyboardEvent<HTMLInputElement>) => {
+    async (e: React.KeyboardEvent<HTMLInputElement>) => {
       if (e.key === 'Enter') {
+        e.preventDefault(); // Prevent default to handle all Enter key cases
+
         // If there's no input and we're streaming, complete the stream
         if (!input.trim() && isStreaming) {
-          e.preventDefault();
           completeStreaming();
+        }
+        // If there is input and we're streaming, handle submit will take care of it
+        else if (input.trim()) {
+          handleSubmit();
         }
       }
     },
-    [input, isStreaming, completeStreaming],
+    [input, isStreaming, completeStreaming, handleSubmit],
   );
 
   if (!isVisible && !showChat) return null;
