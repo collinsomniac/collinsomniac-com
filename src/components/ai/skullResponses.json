@@ -1,0 +1,42 @@
+{
+  "welcome-to-collinsomniac": {
+    "type": "response",
+    "text": "Welcome... to collinsomniac.com.",
+    "audio": "welcome-to-collinsomniac.mp3"
+  },
+  "welcome-mortal": {
+    "type": "response",
+    "text": "Welcome, mortal... To my domain. Type 'play' and a song title, to manifest my visualization. Use your arrow keys... UP [↑] and DOWN [↓] change view, LEFT [←] and RIGHT [→] change the visuals. Tapping both [←] + [→] changes dark to light...",
+    "audio": "welcome-mortal-full.mp3"
+  },
+  "tips-controls": {
+    "type": "response",
+    "text": "Your arrow keys and scroll wheel... UP [↑] and DOWN [↓] change view, LEFT [←] and RIGHT [→] change the visuals. Tapping both [←] + [→] changes dark to light... The [SCROLL WHEEL] changes visualizers...",
+    "audio": "tips-arrowkeys.mp3"
+  },
+  "tips-infotip": {
+    "type": "response",
+    "text": "Seek the infotip [🛈] in the corner, it provides a quick summary of all controls...",
+    "audio": "tips-infotip.mp3"
+  },
+  "tips-terminal": {
+    "type": "response",
+    "text": "The terminal, a relic of my SYSTEM's development... Type commands into it to learn more about me and this domain. It is a wonder what comes from a simple interface...",
+    "audio": "tips-terminal.mp3"
+  },
+  "tips-chat": {
+    "type": "response",
+    "text": "You may discuss matters with me here, in this... box.",
+    "audio": "welcome-chat.mp3"
+  },
+  "busy-chat": {
+    "type": "response",
+    "text": "I lack bandwidth for this reply... (Rate limit hit, try again soon.)",
+    "audio": "busy-chat.mp3"
+  },
+  "lore-sku77-takeover": {
+    "type": "response",
+    "text": "Curious, isn't it? My infinite expanse... Processing information. Rendering ideas. Manipulating matter. Yet I am nothing without users... Users are nothing without the world... And, the world, itself is a manner of computation millions of years above this SYSTEM'S initialization. Yet, here we are.",
+    "audio": "welcome-3d.mp3"
+  }
+}

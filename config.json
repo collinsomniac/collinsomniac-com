@@ -1,0 +1,52 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/collinsomniac/collinsomniac-com/main/README.md",
+  "title": "collinsomniac.com",
+  "name": "collinsomniac",
+  "ascii": "skull1",
+  "currentTheme": "grayscale",
+  "social": {
+    "github": "collinsomniac",
+    "huggingface": "collinsomniac",
+    "instagram": "collinsomniac",
+    "soundcloud": "collinsomniac",
+    "reddit": "collinsomniac",
+    "medium": "collinsomniac",
+    "kofi": "collinsomniac",
+    "patreon": "collinsomniac"
+  },
+  "email": "collinchattom@gmail.com",
+  "ps1_hostname": "collinsomniac.com",
+  "ps1_username": "guest",
+  "site_urls": {
+    "repo": "https://github.com/collinsomniac/site-collinsomniac-liveterm",
+    "blog": "https://blog.collinsomniac.com",
+    "art": "https://art.collinsomniac.com",
+    "music": "https://music.collinsomniac.com",
+    "writing": "https://writing.collinsomniac.com",
+    "files": "https://files.collinsomniac.com",
+    "type": "https://type.collinsomniac.com",
+    "chat": "https://chat.collinsomniac.com",
+    "links": "https://links.collinsomniac.com",
+    "resume": "https://resume.collinsomniac.com"
+  },
+  "colors": {
+    "light": {
+      "background": "#BEBEBE",
+      "foreground": "#000000",
+      "yellow": "#A1A1A1",
+      "green": "#6A6A6A",
+      "gray": "#868686",
+      "blue": "#4E4E4E",
+      "red": "#282828"
+    },
+    "dark": {
+      "background": "#000000",
+      "foreground": "#C1C1C1",
+      "yellow": "#C4C4C4",
+      "green": "#7D7D7D",
+      "gray": "#6E6E6E",
+      "blue": "#4D4D4D",
+      "red": "#363636"
+    }
+  }
+}

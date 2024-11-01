@@ -1,0 +1,6 @@
+{
+  "models": [
+    "./talkingskull/talkingskull-v2.glb",
+    "./computerdesk/computerdesk-v2.glb"
+  ]
+}

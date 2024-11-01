@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Hack';
+  src: url(/assets/fonts/Hack-NF.ttf);
+  display: swap;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #e9e9e9;
+  --yellow: #afafaf;
+  --green: #a3a3a3;
+  --gray: #868686;
+  --blue: #4e4e4e;
+  --red: #606060;
+}
+
+/* styles/globals.css */
+
+#groqchat-input {
+  color: black;
+}
+
+/* Leva Full Div */
+.leva-c-kWgxhW {
+  border: 2px solid var(--foreground);
+  max-width: 40vw;
+}
+
+/* Leva Controls Div */
+.leva-c-dmsJDs {
+  margin-bottom: 2px;
+  max-height: 71vh;
+  max-width: 100%;
+}
+
+.threedengine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.laptop iframe {
+  width: 1773px;
+  height: 1117px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.container {
+  padding: 8px;
+  overflow: hidden;
+  height: calc(100vh - 16px); /* Adjust based on your padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.history {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Rainbow Text - use with <span class="rainbow rainbow_text_animated">TEXT_GOES_HERE</span> */
+.rainbow {
+  display: inline;
+  text-decoration: none;
+}
+
+.rainbow_text_animated {
+  background: linear-gradient(
+    to left,
+    #ff0000,
+    #ff4000,
+    #ff8000,
+    #ffbf00,
+    #ffff00,
+    #bfff00,
+    #80ff00,
+    #40ff00,
+    #00ff00,
+    #00ff40,
+    #00ff80,
+    #00ffbf,
+    #00ffff,
+    #00bfff,
+    #0080ff,
+    #0040ff,
+    #4000ff,
+    #8000ff,
+    #bf00ff,
+    #ff00ff,
+    #ff00bf,
+    #ff0080,
+    #ff0040,
+    #ff0000
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 2s linear infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes rainbow_animation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* Default Global CSS */
+
+.bg-grayscale-background {
+  background-color: #222222; /* Set default background for grayscale */
+}
+
+.text-grayscale-text {
+  color: #ffffff; /* Set default text for grayscale */
+}
+
+* {
+  font-family: 'Hack', monospace;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+  overflow: auto;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  min-width: 3px;
+  min-height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--blue);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--red);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--yellow);
+}
+
+@media (max-width: 550px) {
+  * {
+    font-size: 0.945em;
+  }
+}
+
+@media (max-width: 450px) {
+  html,
+  body,
+  body > div:first-child,
+  div#__next,
+  div#__next > div {
+    min-width: 425px;
+  }
+}

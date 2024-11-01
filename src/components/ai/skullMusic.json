@@ -1,0 +1,70 @@
+{
+  "WELCOME": {
+    "type": "music",
+    "text": "WELCOME. An introduction, to my expanse...",
+    "audio": "welcome-mortal.mp3",
+    "musicConfig": {
+      "song": "welcome-song.wav",
+      "visualizerSetting": "butterchurn",
+      "visualizerPreset": "cope + martin - mother-of-pearl",
+      "visualizerThresholds": {
+        "cooldown": 45,
+        "beatThreshold": 0.27,
+        "noveltyThreshold": 0.45,
+        "energyThreshold": 0.35,
+        "frequencyThreshold": 5000
+      }
+    }
+  },
+  "ATOMS": {
+    "type": "music",
+    "text": "ATOMS. Life's module. Sporadic, intense. Prepare yourself...",
+    "audio": "atoms-speech.mp3",
+    "musicConfig": {
+      "song": "atoms-song.wav",
+      "visualizerSetting": "butterchurn",
+      "visualizerPreset": "Eo.S. + Zylot - skylight (Stained Glass Majesty mix)",
+      "visualizerThresholds": {
+        "cooldown": 45,
+        "beatThreshold": 0.23,
+        "noveltyThreshold": 0.45,
+        "energyThreshold": 0.35,
+        "frequencyThreshold": 5000
+      }
+    }
+  },
+  "ENTROPY": {
+    "type": "music",
+    "text": "ENTROPY. Changing energy. Slowly, and then, all at once...",
+    "audio": "entropy-speech.mp3",
+    "musicConfig": {
+      "song": "entropy-song.wav",
+      "visualizerSetting": "butterchurn",
+      "visualizerPreset": "Phat+fiShbRaiN+Eo.S_Mandala_Chasers_remix",
+      "visualizerThresholds": {
+        "cooldown": 45,
+        "beatThreshold": 0.27,
+        "noveltyThreshold": 0.45,
+        "energyThreshold": 0.35,
+        "frequencyThreshold": 5000
+      }
+    }
+  },
+  "GRAVITY": {
+    "type": "music",
+    "text": "GRAVITY. Push and pull, feet on the floor...",
+    "audio": "gravity-speech.mp3",
+    "musicConfig": {
+      "song": "gravity-song.wav",
+      "visualizerSetting": "butterchurn",
+      "visualizerPreset": "Milk Artist At our Best - FED - SlowFast Ft AdamFX n Martin - HD CosmoFX",
+      "visualizerThresholds": {
+        "cooldown": 45,
+        "beatThreshold": 0.27,
+        "noveltyThreshold": 0.45,
+        "energyThreshold": 0.35,
+        "frequencyThreshold": 5000
+      }
+    }
+  }
+}
